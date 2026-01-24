@@ -13,6 +13,7 @@ const AddItem = ({ fetchItems }) => {
   const handleChange = e => {
     setItem({ ...item, [e.target.name]: e.target.value });
   };
+  
 
   const handleSubmit = async e => {
     e.preventDefault();
