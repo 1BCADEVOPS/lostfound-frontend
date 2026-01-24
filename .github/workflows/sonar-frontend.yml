@@ -22,11 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: lostfound-frontend
 
       - name: Build project
         run: npm run build
-        working-directory: lostfound-frontend
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
@@ -34,6 +32,6 @@ jobs:
           args: >
             -Dsonar.organization=23suca39-creator
             -Dsonar.projectKey=23suca39-creator_lostfound-frontend
-            -Dsonar.sources=lostfound-frontend/src
+            -Dsonar.sources=src
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
