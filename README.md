@@ -1,4 +1,4 @@
-Summary (Lost and Found Management System)
+**Summary (Lost and Found Management System)**
 
 This section summarizes the successful completion of all DevOps and deployment-related tasks for the Lost and Found Management System full-stack project.
 
@@ -65,6 +65,10 @@ Docker images were built properly for deployment and portability.
 <img width="1920" height="1020" alt="Screenshot 2026-02-04 170038" src="https://github.com/user-attachments/assets/81f17efb-2b1a-4935-95eb-9dfd99f83ef3" />
 
 7. Vercel Deployment
+
+Before deploying the frontend on Vercel, the backend of the Lost and Found Management System was successfully deployed on Render, ensuring that the REST API services were live and accessible.
+
+✅ Backend Deployment Link: https://lostfound-backend-y83x.onrender.com
 
 The frontend was successfully deployed on Vercel, enabling continuous deployment directly from GitHub.
 
