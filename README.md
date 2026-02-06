@@ -61,7 +61,7 @@ Both frontend and backend were successfully containerized using Docker.
 
 Docker images were built properly for deployment and portability.
 
-📌 Screenshots of Docker images created are attached below:
+📌 Screenshot of Docker images created are attached below:
 <img width="1920" height="1020" alt="Screenshot 2026-02-04 170038" src="https://github.com/user-attachments/assets/81f17efb-2b1a-4935-95eb-9dfd99f83ef3" />
 
 7. Vercel Deployment
