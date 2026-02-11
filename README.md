@@ -80,18 +80,32 @@ A custom domain was purchased and successfully connected to the Vercel deploymen
 
 ✅ Custom Domain Link: https://lostfound.kaviya39.me
 
-9. Project Demo
+9. Deployment of Docker Images on Azure
+
+Under the Deployment of Docker Images on Azure, I successfully utilized the Azure Student Pack to deploy both my frontend and backend applications as Docker container images. First, I created and pushed the Docker images to Azure Container Registry (ACR), and then connected them to
+
+Azure App Services for deployment. After configuring the container settings and linking the frontend with the backend API URL, both applications were deployed and working properly on Azure.
+
+Frontend URL: https://lostfound-frontend-app39.azurewebsites.net
+
+Backend API URL: https://lostfound-backend-app39.azurewebsites.net
+
+<img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/69c5c163-a393-4bab-8778-be52c6c2ff8f" />
+
+This confirms that the Docker images for both frontend and backend were successfully deployed and are running on Azure.
+
+10. Project Demo
 
 I am fully prepared for the project demo and will present the complete working system during the DevOps class.
 
-10. Presentation in English
+11. Presentation in English
 
 I am ready to deliver the project presentation in English, explaining the system architecture, development, and deployment process clearly in the DevOps class.
 
-11. GitHub Student Pack Demo
+12. GitHub Student Pack Demo
 
 I have successfully activated GitHub Student Pack benefits (Namecheap domain) and I am ready to demonstrate this in the DevOps class.
 
-12. Explaining Challenges Faced
+13. Explaining Challenges Faced
 
 I am prepared to explain all challenges faced during development, deployment, Dockerization, and domain integration during the DevOps class session.
