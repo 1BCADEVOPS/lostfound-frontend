@@ -88,7 +88,7 @@ Azure App Services for deployment. After configuring the container settings and 
 
 Frontend URL: https://lostfound-frontend-app39.azurewebsites.net
 
-Backend API URL: https://lostfound-backend-app39.azurewebsites.net
+Backend API URL: https://lostfound-backend-app39.azurewebsites.net/api/items
 
 <img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/69c5c163-a393-4bab-8778-be52c6c2ff8f" />
 
