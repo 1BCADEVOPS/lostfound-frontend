@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+**Summary (Lost and Found Management System)**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This section summarizes the successful completion of all DevOps and deployment-related tasks for the Lost and Found Management System full-stack project.
 
-## Available Scripts
+1. Development – Frontend
 
-In the project directory, you can run:
+The frontend of the application was successfully developed using React.js.
+It provides a responsive and user-friendly interface where users can report lost or found items and view submitted item details efficiently.
 
-### `npm start`
+2. Development – Backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The backend was successfully developed using Spring Boot.
+It handles REST API requests, business logic, and database interactions, ensuring secure and reliable data processing for the system.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Build Project (Frontend & Backend)
 
-### `npm test`
+Both frontend and backend projects were successfully built and verified.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Frontend build was generated using:
 
-### `npm run build`
+npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Backend build was completed successfully using:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+mvn clean install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📌 Screenshots of build outputs are attached below:
 
-### `npm run eject`
+Frontend Build Screenshot: 
+<img width="1483" height="762" alt="Screenshot 2026-02-04 165118" src="https://github.com/user-attachments/assets/6b6d9427-71cc-4305-966d-4112f38f44e0" />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Backend Build Screenshot:
+<img width="1920" height="1020" alt="Screenshot 2026-02-04 213125" src="https://github.com/user-attachments/assets/3b0e7422-6836-4904-9d5c-947c93b561af" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Sonar Analysis
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+SonarQube analysis was successfully performed for both frontend and backend to ensure code quality, maintainability, and detection of bugs or vulnerabilities.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📌 Screenshots of SonarQube Reports are attached below:
+<img width="1920" height="1020" alt="Screenshot 2026-02-04 213241" src="https://github.com/user-attachments/assets/1bb341d4-f583-4c4d-bbd8-07b19ac29099" />
 
-## Learn More
+Frontend Sonar Analysis Screenshot:
+<img width="1920" height="1020" alt="Screenshot 2026-02-04 213514" src="https://github.com/user-attachments/assets/527f7c95-309b-4141-90e8-2adf7449802d" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Backend Sonar Analysis Screenshot:
+<img width="1920" height="1020" alt="Screenshot 2026-02-04 213446" src="https://github.com/user-attachments/assets/abd3ab64-eedc-411d-886c-0502103a5b18" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Proper Pull Request
 
-### Code Splitting
+A proper pull request workflow was followed for both frontend and backend repositories.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pull requests were successfully created.
 
-### Analyzing the Bundle Size
+The pull requests were reviewed and merged successfully.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This demonstrates correct GitHub collaboration and version control practices.
 
-### Making a Progressive Web App
+6. Docker Image Build (Frontend & Backend)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Both frontend and backend were successfully containerized using Docker.
 
-### Advanced Configuration
+Docker images were built properly for deployment and portability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📌 Screenshot of Docker images created are attached below:
+<img width="1920" height="1020" alt="Screenshot 2026-02-04 170038" src="https://github.com/user-attachments/assets/81f17efb-2b1a-4935-95eb-9dfd99f83ef3" />
 
-### Deployment
+7. Vercel Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Before deploying the frontend on Vercel, the backend of the Lost and Found Management System was successfully deployed on Render, ensuring that the REST API services were live and accessible.
 
-### `npm run build` fails to minify
+✅ Backend Deployment Link: https://lostfound-backend-y83x.onrender.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The frontend was successfully deployed on Vercel, enabling continuous deployment directly from GitHub.
+
+✅ Deployment Link: https://lostfound-kaviya.vercel.app
+
+8. Vercel Deployment with Domain Name
+
+A custom domain was purchased and successfully connected to the Vercel deployment, making the project production-ready with a professional URL.
+
+✅ Custom Domain Link: https://lostfound.kaviya39.me
+
+9. Deployment of Docker Images on Azure
+
+Under the Deployment of Docker Images on Azure, I successfully utilized the Azure Student Pack to deploy both my frontend and backend applications as Docker container images. First, I created and pushed the Docker images to Azure Container Registry (ACR), and then connected them to
+
+Azure App Services for deployment. After configuring the container settings and linking the frontend with the backend API URL, both applications were deployed and working properly on Azure.
+
+Frontend URL: https://lostfound-frontend-app39.azurewebsites.net
+
+Backend API URL: https://lostfound-backend-app39.azurewebsites.net/api/items
+
+<img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/69c5c163-a393-4bab-8778-be52c6c2ff8f" />
+
+This confirms that the Docker images for both frontend and backend were successfully deployed and are running on Azure.
+
+10. Project Demo
+
+I am fully prepared for the project demo and will present the complete working system during the DevOps class.
+
+11. Presentation in English
+
+I am ready to deliver the project presentation in English, explaining the system architecture, development, and deployment process clearly in the DevOps class.
+
+12. GitHub Student Pack Demo
+
+I have successfully activated GitHub Student Pack benefits (Namecheap domain) and I am ready to demonstrate this in the DevOps class.
+
+13. Explaining Challenges Faced
+
+I am prepared to explain all challenges faced during development, deployment, Dockerization, and domain integration during the DevOps class session.
