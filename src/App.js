@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./App.css";
 import AddItem from "./components/AddItem";
 import ItemList from "./components/ItemList";
 
@@ -16,10 +17,15 @@ function App() {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Lost & Found System</h1>
-      <AddItem fetchItems={fetchItems} />
-      <ItemList items={items} fetchItems={fetchItems} />
+    <div className="app-container">
+      <header className="app-header">
+        <h1>Lost & Found System</h1>
+        <p className="app-subtitle">Report items and keep track of what has been lost or found.</p>
+      </header>
+      <main className="app-main">
+        <AddItem fetchItems={fetchItems} />
+        <ItemList items={items} fetchItems={fetchItems} />
+      </main>
     </div>
   );
 }
