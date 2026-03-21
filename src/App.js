@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Lost & Found System</h1>
+        <h1>Lost & Found Management System</h1>
         <p className="app-subtitle">Report items and keep track of what has been lost or found.</p>
       </header>
       <main className="app-main">
